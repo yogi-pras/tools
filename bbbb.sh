@@ -87,15 +87,10 @@ if [ $bro = 3 ]
 then
 clear
 figlet "adsense" || lolcat
-pkg update && pkg upgrade
-pkg install python2
 pkg install git
-git clone https://github.com/YadiFernando/DARKFB
-pip2 install mechanize
-pip2 install requests
-mv DARKFB $HOME
-cd $HOME/DARKFB
-python2 DARKFB.py
+git clone https://github.com/muhalvin/darkfb7
+cd darkfb7
+python2 dark.py
 fi
 
 if [ $bro = 4 ]
